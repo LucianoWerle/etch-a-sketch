@@ -81,15 +81,3 @@ const reset = document.getElementById("reset");
 reset.addEventListener("click", function(){
     location.reload();
 })
-
-
-
-// //reset, if button clicked reset colors.
-// document.getElementById("reset").addEventListener("click", function(){
-//         const gridCell = document.getElementsByClassName("gridCell");
-//         for (let i = 0; i < gridCell.length; i++){
-//         gridCell[i].style.backgroundColor = grid.style.backgroundColor;
-//         }
-// })
-
-
